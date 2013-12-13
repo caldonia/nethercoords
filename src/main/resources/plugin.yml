@@ -1,3 +1,8 @@
 name: NetherCoords
 version: 0.0.1
 main: net.caldonia.bukkit.plugins.nethercoords.NetherCoords
+commands:
+  nethercoords:
+    description: Show appropriate coordinates for nether portal linking.
+    usage: /<command>
+    permission: nethercoords.use
